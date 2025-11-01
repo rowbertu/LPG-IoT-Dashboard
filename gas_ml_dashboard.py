@@ -5,11 +5,11 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.ensemble import RandomForestClassifier
 
-st.set_page_config(page_title="LPG Gas Leak ML Dashboard", page_icon="🧠", layout="centered")
+st.set_page_config(page_title="LPG Gas Leak ML Dashboard", page_icon="🔥", layout="wide")
 
 # --- HEADER ---
-st.title("🧠 LPG Gas Leak Detection with Machine Learning")
-st.write("This dashboard uses a Random Forest model to predict leak risk levels (Level 1–3) based on gas concentration and cylinder weight.")
+st.title("🔥 LPG Gas Leak Detection with Machine Learning")
+st.write("This dashboard uses a **Random Forest** model to predict leak risk levels (Level 1–3) based on gas concentration and cylinder weight.")
 
 # --- Step 1: Simulate Data ---
 np.random.seed(42)
@@ -72,4 +72,4 @@ if show_plot:
     ax.grid(True)
     st.pyplot(fig)
 
-st.caption("Developed for LPG Gas Leak Detection & Auto Shutoff Project 🧯")
+st.caption("GaSolve: Developement of LPG Gas Leak Detection & Auto Shutoff Project 🧯")
